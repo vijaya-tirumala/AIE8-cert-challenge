@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Vector databases
+notebooks/chroma_db/
+*.faiss
+*.pkl
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Evaluation results - keeping for demonstration
+# metrics/golden_dataset_*.json
+# metrics/rag_evaluation_*.json
+# metrics/rag_evaluation_*.txt
+# metrics/rag_evaluation_summary_*.json
+
+# Keep the metrics directory structure but ignore generated files
+!metrics/.gitkeep
+
+# Jupyter notebooks (optional - uncomment if you want to exclude)
+# notebooks/*.ipynb
+
+# Old startup scripts (removed)
+# start_app.sh
+# start_app_simple.sh  
+# start_app_interactive.sh
+# start_production.sh
+
+# Package manager lock files (optional)
+# uv.lock
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,86 @@
+{
+  "overall_performance": {
+    "average_score": 0.7004399604967736,
+    "median_score": 0.7079678852936333,
+    "std_score": 0.07281654877226663,
+    "min_score": 0.6241518811696041,
+    "max_score": 0.7692001150270834,
+    "score_range": 0.14504823385747934
+  },
+  "category_performance": {
+    "Security": {
+      "average_score": 0.7004399604967736,
+      "std_score": 0.07281654877226663,
+      "count": 3,
+      "pass_rate": 0.6666666666666666
+    }
+  },
+  "difficulty_performance": {
+    "easy": {
+      "average_score": 0.6660598832316187,
+      "std_score": 0.059266864888060704,
+      "count": 2,
+      "pass_rate": 0.5
+    },
+    "medium": {
+      "average_score": 0.7692001150270834,
+      "std_score": NaN,
+      "count": 1,
+      "pass_rate": 1.0
+    }
+  },
+  "metric_performance": {
+    "semantic_similarity": {
+      "average_score": 0.6334109794336896,
+      "std_score": 0.12153012286681646,
+      "min_score": 0.49717293723201356,
+      "max_score": 0.7306670500902779
+    },
+    "keyword_coverage": {
+      "average_score": 0.6416666666666667,
+      "std_score": 0.15069284433354274,
+      "min_score": 0.5,
+      "max_score": 0.8
+    },
+    "factual_accuracy": {
+      "average_score": 1.0,
+      "std_score": 0.0,
+      "min_score": 1.0,
+      "max_score": 1.0
+    },
+    "answer_length_score": {
+      "average_score": 1.0,
+      "std_score": 0.0,
+      "min_score": 1.0,
+      "max_score": 1.0
+    },
+    "source_relevance": {
+      "average_score": 0.0,
+      "std_score": 0.0,
+      "min_score": 0.0,
+      "max_score": 0.0
+    }
+  },
+  "response_time_stats": {
+    "average_time": 6.318954944610596,
+    "median_time": 6.139862775802612,
+    "std_time": 1.7862442633452196,
+    "min_time": 4.629003047943115,
+    "max_time": 8.18799901008606
+  },
+  "threshold_comparison": {
+    "cases_above_threshold": 0,
+    "cases_below_threshold": 3,
+    "threshold_pass_rate": 0.0
+  },
+  "pass_fail_analysis": {
+    "total_cases": 3,
+    "passing_cases": 2,
+    "failing_cases": 1,
+    "overall_pass_rate": 0.6666666666666666,
+    "excellent_cases": 0,
+    "good_cases": 0,
+    "fair_cases": 2,
+    "poor_cases": 1
+  }
+}

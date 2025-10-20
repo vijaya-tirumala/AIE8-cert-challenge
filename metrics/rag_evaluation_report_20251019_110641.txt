@@ -1,0 +1,51 @@
+
+RAG PIPELINE EVALUATION REPORT
+Generated on: 2025-10-19 11:06:41
+Evaluation Time: 18.96 seconds
+
+EXECUTIVE SUMMARY
+================
+Overall Performance Score: 0.700
+Pass Rate: 66.7%
+Total Test Cases: 3
+
+PERFORMANCE BREAKDOWN
+=====================
+Excellent (≥0.9): 0 cases
+Good (0.8-0.9):   0 cases
+Fair (0.7-0.8):   2 cases
+Poor (<0.7):      1 cases
+
+CATEGORY PERFORMANCE
+====================
+Security: 0.700 (Pass Rate: 66.7%)
+
+DIFFICULTY PERFORMANCE
+=====================
+Easy: 0.666 (Pass Rate: 50.0%)
+Medium: 0.769 (Pass Rate: 100.0%)
+
+METRIC PERFORMANCE
+==================
+Semantic Similarity: 0.633
+Keyword Coverage: 0.642
+Factual Accuracy: 1.000
+Answer Length Score: 1.000
+Source Relevance: 0.000
+
+RESPONSE TIME STATISTICS
+========================
+Average Response Time: 6.32 seconds
+Median Response Time:  6.14 seconds
+
+THRESHOLD COMPARISON
+===================
+Cases Above Threshold: 0
+Cases Below Threshold: 3
+Threshold Pass Rate:   0.0%
+
+RECOMMENDATIONS
+===============
+✅ Performance is acceptable but has room for improvement:
+   - Focus on improving lower-performing categories
+   - Optimize response generation for better accuracy

@@ -1,0 +1,85 @@
+[
+  {
+    "question": "What encryption standards does the platform support?",
+    "expected_answer": "The platform supports AES-256 encryption for data at rest and TLS 1.3 for data in transit, with integration to enterprise key management systems like AWS KMS, Azure Key Vault, and HashiCorp Vault.",
+    "actual_response": "I'm sorry, but I can't provide the encryption standards because the platform was not specified. Could you please provide more details?",
+    "response_time": 8.490689992904663,
+    "metrics": {
+      "semantic_similarity": 0.0637223332362231,
+      "keyword_coverage": 0.09090909090909091,
+      "answer_length_score": 1.0,
+      "factual_accuracy": 0.0,
+      "source_relevance": 0.0,
+      "overall_score": 0.14184397269813967
+    },
+    "category": "Security",
+    "difficulty": "easy",
+    "keywords": [
+      "encryption",
+      "AES-256",
+      "TLS",
+      "key management"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.8,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What compliance standards does the platform meet?",
+    "expected_answer": "The platform meets SOC 2 Type II, ISO 27001, and GDPR compliance standards. Additionally, it can be configured to meet HIPAA and PCI DSS standards as optional add-ons.",
+    "actual_response": "Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "response_time": 23.3147611618042,
+    "metrics": {
+      "semantic_similarity": 0.029252711208797338,
+      "keyword_coverage": 0.08333333333333333,
+      "answer_length_score": 1.0,
+      "factual_accuracy": 0.0,
+      "source_relevance": 0.0,
+      "overall_score": 0.12960914669597254
+    },
+    "category": "Security",
+    "difficulty": "easy",
+    "keywords": [
+      "SOC 2",
+      "ISO 27001",
+      "GDPR",
+      "HIPAA",
+      "PCI DSS"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.95,
+      "completeness": 0.9,
+      "relevance": 0.95
+    }
+  },
+  {
+    "question": "What authentication methods are supported?",
+    "expected_answer": "The platform supports LDAP, Active Directory, OAuth 2.0, SAML 2.0, and multi-factor authentication (MFA) for enterprise-grade authentication.",
+    "actual_response": "Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "response_time": 1.9393982887268066,
+    "metrics": {
+      "semantic_similarity": 0.0169530973430278,
+      "keyword_coverage": 0.06666666666666667,
+      "answer_length_score": 0.8,
+      "factual_accuracy": 0.0,
+      "source_relevance": 0.0,
+      "overall_score": 0.10175259586957502
+    },
+    "category": "Security",
+    "difficulty": "medium",
+    "keywords": [
+      "LDAP",
+      "Active Directory",
+      "OAuth",
+      "SAML",
+      "MFA"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  }
+]

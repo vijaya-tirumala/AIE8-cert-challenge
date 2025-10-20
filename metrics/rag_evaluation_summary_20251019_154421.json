@@ -1,0 +1,26 @@
+{
+  "Standard RAG": {
+    "overall_score": 0.8890443540889663,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9633996386117077,
+    "context_precision": 0.7927777777441574,
+    "context_recall": 0.8,
+    "avg_response_time": 2.8917492389678956
+  },
+  "Advanced Retrieval": {
+    "overall_score": 0.8302733909564926,
+    "faithfulness": 0.7571428571428571,
+    "answer_relevancy": 0.9711729289389556,
+    "context_precision": 0.7927777777441574,
+    "context_recall": 0.8,
+    "avg_response_time": 6.913966798782349
+  },
+  "Conservative RAG": {
+    "overall_score": 0.8915248702384926,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9733217032098128,
+    "context_precision": 0.7927777777441574,
+    "context_recall": 0.8,
+    "avg_response_time": 2.604225492477417
+  }
+}

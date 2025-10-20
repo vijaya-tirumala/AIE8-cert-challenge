@@ -1,0 +1,92 @@
+{
+  "overall_performance": {
+    "average_score": 0.5688926579178188,
+    "median_score": 0.6241518811696041,
+    "std_score": 0.18908162836591003,
+    "min_score": 0.29265410528971525,
+    "max_score": 0.7677418292911595,
+    "score_range": 0.4750877240014443
+  },
+  "category_performance": {
+    "Security": {
+      "average_score": 0.693692197098791,
+      "std_score": 0.07190110395716323,
+      "count": 3,
+      "pass_rate": 0.3333333333333333
+    },
+    "Performance": {
+      "average_score": 0.38169334914636044,
+      "std_score": 0.12592050624551288,
+      "count": 2,
+      "pass_rate": 0.0
+    }
+  },
+  "difficulty_performance": {
+    "easy": {
+      "average_score": 0.5191803650744835,
+      "std_score": 0.17661748455082824,
+      "count": 4,
+      "pass_rate": 0.0
+    },
+    "medium": {
+      "average_score": 0.7677418292911595,
+      "std_score": NaN,
+      "count": 1,
+      "pass_rate": 1.0
+    }
+  },
+  "metric_performance": {
+    "semantic_similarity": {
+      "average_score": 0.48473646153601696,
+      "std_score": 0.23668727285550417,
+      "min_score": 0.09730855609392253,
+      "max_score": 0.7258060976371982
+    },
+    "keyword_coverage": {
+      "average_score": 0.5098868778280543,
+      "std_score": 0.2376046008310237,
+      "min_score": 0.15384615384615385,
+      "max_score": 0.8
+    },
+    "factual_accuracy": {
+      "average_score": 0.8,
+      "std_score": 0.27386127875258304,
+      "min_score": 0.5,
+      "max_score": 1.0
+    },
+    "answer_length_score": {
+      "average_score": 0.96,
+      "std_score": 0.08944271909999157,
+      "min_score": 0.8,
+      "max_score": 1.0
+    },
+    "source_relevance": {
+      "average_score": 0.0,
+      "std_score": 0.0,
+      "min_score": 0.0,
+      "max_score": 0.0
+    }
+  },
+  "response_time_stats": {
+    "average_time": 5.320299243927002,
+    "median_time": 5.1604180335998535,
+    "std_time": 1.3614118395088401,
+    "min_time": 3.479949712753296,
+    "max_time": 7.120872974395752
+  },
+  "threshold_comparison": {
+    "cases_above_threshold": 0,
+    "cases_below_threshold": 5,
+    "threshold_pass_rate": 0.0
+  },
+  "pass_fail_analysis": {
+    "total_cases": 5,
+    "passing_cases": 1,
+    "failing_cases": 4,
+    "overall_pass_rate": 0.2,
+    "excellent_cases": 0,
+    "good_cases": 0,
+    "fair_cases": 1,
+    "poor_cases": 4
+  }
+}

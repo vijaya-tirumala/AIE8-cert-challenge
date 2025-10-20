@@ -1,0 +1,352 @@
+[
+  {
+    "question": "What encryption standards does the platform support?",
+    "expected_answer": "The platform supports AES-256 encryption for data at rest and TLS 1.3 for data in transit, with integration to enterprise key management systems like AWS KMS, Azure Key Vault, and HashiCorp Vault.",
+    "category": "Security",
+    "difficulty": "easy",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "encryption",
+      "AES-256",
+      "TLS",
+      "key management"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.8,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What compliance standards does the platform meet?",
+    "expected_answer": "The platform meets SOC 2 Type II, ISO 27001, and GDPR compliance standards. Additionally, it can be configured to meet HIPAA and PCI DSS standards as optional add-ons.",
+    "category": "Security",
+    "difficulty": "easy",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_rfp_responses.md"
+    ],
+    "keywords": [
+      "SOC 2",
+      "ISO 27001",
+      "GDPR",
+      "HIPAA",
+      "PCI DSS"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.95,
+      "completeness": 0.9,
+      "relevance": 0.95
+    }
+  },
+  {
+    "question": "What authentication methods are supported?",
+    "expected_answer": "The platform supports LDAP, Active Directory, OAuth 2.0, SAML 2.0, and multi-factor authentication (MFA) for enterprise-grade authentication.",
+    "category": "Security",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_product_specs.md",
+      "sample_rfp_responses.md"
+    ],
+    "keywords": [
+      "LDAP",
+      "Active Directory",
+      "OAuth",
+      "SAML",
+      "MFA"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What is the maximum data volume the platform can handle?",
+    "expected_answer": "The platform can handle petabytes of data with linear scaling capabilities, supporting clusters up to 10,000 nodes and up to 50,000 concurrent users.",
+    "category": "Performance",
+    "difficulty": "easy",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "petabytes",
+      "scaling",
+      "10,000 nodes",
+      "50,000 users"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What is the query response time?",
+    "expected_answer": "The platform delivers sub-second response time for 95% of analytical queries, with enterprise-grade performance benchmarks.",
+    "category": "Performance",
+    "difficulty": "easy",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "sub-second",
+      "95%",
+      "analytical queries",
+      "performance"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.8,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What is the platform's availability SLA?",
+    "expected_answer": "The platform provides 99.9% SLA with automatic failover capabilities, multi-region replication with RTO < 1 hour, and automated incremental backups.",
+    "category": "Performance",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_faq.md"
+    ],
+    "keywords": [
+      "99.9%",
+      "SLA",
+      "failover",
+      "RTO",
+      "backups"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What cloud platforms are supported?",
+    "expected_answer": "The platform provides native integration with AWS (S3, EC2, RDS, Redshift), Azure (Blob Storage, Data Factory, Synapse Analytics), and GCP (BigQuery, Cloud Storage, Dataflow), with multi-cloud deployment support.",
+    "category": "Integration",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_rfp_responses.md"
+    ],
+    "keywords": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "multi-cloud",
+      "integration"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What deployment options are available?",
+    "expected_answer": "The platform offers on-premises deployment (minimum 16 CPU cores, 64GB RAM, 1TB storage), cloud SaaS, hybrid deployments, and container support with Docker and Kubernetes.",
+    "category": "Integration",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "on-premises",
+      "SaaS",
+      "hybrid",
+      "Docker",
+      "Kubernetes"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What enterprise systems can be integrated?",
+    "expected_answer": "The platform integrates with ERP systems (SAP, Oracle EBS, Microsoft Dynamics 365), CRM platforms (Salesforce, HubSpot, Microsoft Dynamics CRM), and BI tools (Tableau, Power BI, Looker, QlikView, MicroStrategy).",
+    "category": "Integration",
+    "difficulty": "hard",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "ERP",
+      "CRM",
+      "BI",
+      "SAP",
+      "Salesforce",
+      "Tableau"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.85,
+      "completeness": 0.8,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What data ingestion methods are supported?",
+    "expected_answer": "The platform supports real-time streaming (Apache Kafka, Apache Pulsar, AWS Kinesis), batch processing (Apache Spark, Hadoop), API-based ingestion via RESTful APIs, and file-based ingestion for CSV, JSON, Parquet, Avro, and XML formats.",
+    "category": "Technical",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "Kafka",
+      "Spark",
+      "Hadoop",
+      "API",
+      "file formats"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What analytics capabilities are included?",
+    "expected_answer": "The platform provides ANSI SQL compliance with analytics extensions, integrated ML pipelines with TensorFlow and PyTorch support, real-time analytics with sub-second query response, and built-in dashboard and reporting tools.",
+    "category": "Technical",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "SQL",
+      "ML",
+      "TensorFlow",
+      "PyTorch",
+      "analytics"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What are the minimum system requirements?",
+    "expected_answer": "Minimum requirements include Intel Xeon or AMD EPYC processors (16 cores minimum), 64GB RAM minimum (256GB recommended), SSD storage with 1TB minimum capacity, and 10 Gigabit Ethernet recommended.",
+    "category": "Technical",
+    "difficulty": "easy",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "CPU",
+      "RAM",
+      "storage",
+      "network",
+      "requirements"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What support options are available?",
+    "expected_answer": "The platform offers Standard support (8x5 with 4-hour response), Premium support (24x7 with 1-hour response), Enterprise support (custom SLA with dedicated team), and comprehensive training programs.",
+    "category": "Support",
+    "difficulty": "easy",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_faq.md"
+    ],
+    "keywords": [
+      "support",
+      "SLA",
+      "response time",
+      "training"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What is the licensing model?",
+    "expected_answer": "The platform offers per-core licensing based on CPU cores, data volume tiered pricing, user-based licensing for analytics features, and hybrid models combining different licensing approaches.",
+    "category": "Support",
+    "difficulty": "medium",
+    "expected_sources": [
+      "sample_rfp_responses.md",
+      "sample_product_specs.md"
+    ],
+    "keywords": [
+      "licensing",
+      "per-core",
+      "data volume",
+      "user-based"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "How does the platform ensure enterprise-grade security and compliance?",
+    "expected_answer": "The platform ensures enterprise-grade security through AES-256 encryption for data at rest and TLS 1.3 for data in transit, comprehensive authentication (LDAP, AD, OAuth, SAML, MFA), fine-grained RBAC authorization, complete audit logging, and compliance with SOC 2 Type II, ISO 27001, GDPR, with optional HIPAA and PCI DSS add-ons.",
+    "category": "Complex",
+    "difficulty": "hard",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_product_specs.md",
+      "sample_rfp_responses.md"
+    ],
+    "keywords": [
+      "security",
+      "compliance",
+      "encryption",
+      "authentication",
+      "audit"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.85,
+      "completeness": 0.9,
+      "relevance": 0.95
+    }
+  },
+  {
+    "question": "What makes this platform suitable for enterprise-scale data processing?",
+    "expected_answer": "The platform is suitable for enterprise-scale processing due to its ability to handle petabytes of data with linear scaling up to 10,000 nodes, support for 50,000 concurrent users, sub-second query response for 95% of analytical queries, 99.9% SLA with automatic failover, multi-region disaster recovery with RTO < 1 hour, and comprehensive integration with major cloud providers and enterprise systems.",
+    "category": "Complex",
+    "difficulty": "hard",
+    "expected_sources": [
+      "sample_faq.md",
+      "sample_product_specs.md",
+      "sample_rfp_responses.md"
+    ],
+    "keywords": [
+      "enterprise",
+      "scaling",
+      "performance",
+      "availability",
+      "integration"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.85,
+      "completeness": 0.9,
+      "relevance": 0.95
+    }
+  }
+]

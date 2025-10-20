@@ -1,0 +1,92 @@
+{
+  "overall_performance": {
+    "average_score": 0.6129199632301331,
+    "median_score": 0.6891828808356092,
+    "std_score": 0.2269937597917441,
+    "min_score": 0.29265410528971525,
+    "max_score": 0.8442884077311754,
+    "score_range": 0.5516343024414602
+  },
+  "category_performance": {
+    "Security": {
+      "average_score": 0.7670710392859815,
+      "std_score": 0.07755493915806452,
+      "count": 3,
+      "pass_rate": 0.6666666666666666
+    },
+    "Performance": {
+      "average_score": 0.38169334914636044,
+      "std_score": 0.12592050624551288,
+      "count": 2,
+      "pass_rate": 0.0
+    }
+  },
+  "difficulty_performance": {
+    "easy": {
+      "average_score": 0.5742144967148765,
+      "std_score": 0.24230999785006466,
+      "count": 4,
+      "pass_rate": 0.25
+    },
+    "medium": {
+      "average_score": 0.7677418292911595,
+      "std_score": NaN,
+      "count": 1,
+      "pass_rate": 1.0
+    }
+  },
+  "metric_performance": {
+    "semantic_similarity": {
+      "average_score": 0.5633123277285799,
+      "std_score": 0.2988891366323352,
+      "min_score": 0.09730855609392253,
+      "max_score": 0.8900522681948274
+    },
+    "keyword_coverage": {
+      "average_score": 0.5917050596462361,
+      "std_score": 0.2964872759442817,
+      "min_score": 0.15384615384615385,
+      "max_score": 0.9090909090909091
+    },
+    "factual_accuracy": {
+      "average_score": 0.8,
+      "std_score": 0.27386127875258304,
+      "min_score": 0.5,
+      "max_score": 1.0
+    },
+    "answer_length_score": {
+      "average_score": 0.96,
+      "std_score": 0.08944271909999157,
+      "min_score": 0.8,
+      "max_score": 1.0
+    },
+    "source_relevance": {
+      "average_score": 0.0,
+      "std_score": 0.0,
+      "min_score": 0.0,
+      "max_score": 0.0
+    }
+  },
+  "response_time_stats": {
+    "average_time": 5.559480428695679,
+    "median_time": 5.318660259246826,
+    "std_time": 2.0741178574563013,
+    "min_time": 3.1737477779388428,
+    "max_time": 8.454275131225586
+  },
+  "threshold_comparison": {
+    "cases_above_threshold": 0,
+    "cases_below_threshold": 5,
+    "threshold_pass_rate": 0.0
+  },
+  "pass_fail_analysis": {
+    "total_cases": 5,
+    "passing_cases": 2,
+    "failing_cases": 3,
+    "overall_pass_rate": 0.4,
+    "excellent_cases": 0,
+    "good_cases": 1,
+    "fair_cases": 1,
+    "poor_cases": 3
+  }
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "question": "What encryption standards does the platform support?",
+    "expected_answer": "The platform supports AES-256 encryption for data at rest and TLS 1.3 for data in transit, with integration to enterprise key management systems like AWS KMS, Azure Key Vault, and HashiCorp Vault.",
+    "actual_response": "The platform supports AES-256 encryption for data at rest and TLS 1.3 encryption for data in transit.",
+    "response_time": 5.143203973770142,
+    "metrics": {
+      "semantic_similarity": 0.49717293723201356,
+      "keyword_coverage": 0.5,
+      "answer_length_score": 1.0,
+      "factual_accuracy": 1.0,
+      "source_relevance": 0.0,
+      "overall_score": 0.6241518811696041
+    },
+    "category": "Security",
+    "difficulty": "easy",
+    "keywords": [
+      "encryption",
+      "AES-256",
+      "TLS",
+      "key management"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.8,
+      "relevance": 0.9
+    }
+  },
+  {
+    "question": "What compliance standards does the platform meet?",
+    "expected_answer": "The platform meets SOC 2 Type II, ISO 27001, and GDPR compliance standards. Additionally, it can be configured to meet HIPAA and PCI DSS standards as optional add-ons.",
+    "actual_response": "The platform meets the following compliance standards: SOC 2 Type II, ISO 27001, GDPR. It also optionally meets HIPAA and PCI DSS standards.",
+    "response_time": 7.680888652801514,
+    "metrics": {
+      "semantic_similarity": 0.6723929509787776,
+      "keyword_coverage": 0.625,
+      "answer_length_score": 1.0,
+      "factual_accuracy": 1.0,
+      "source_relevance": 0.0,
+      "overall_score": 0.7079678852936333
+    },
+    "category": "Security",
+    "difficulty": "easy",
+    "keywords": [
+      "SOC 2",
+      "ISO 27001",
+      "GDPR",
+      "HIPAA",
+      "PCI DSS"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.95,
+      "completeness": 0.9,
+      "relevance": 0.95
+    }
+  },
+  {
+    "question": "What authentication methods are supported?",
+    "expected_answer": "The platform supports LDAP, Active Directory, OAuth 2.0, SAML 2.0, and multi-factor authentication (MFA) for enterprise-grade authentication.",
+    "actual_response": "The platform supports LDAP, Active Directory, OAuth 2.0, SAML 2.0, and multi-factor authentication methods.",
+    "response_time": 5.010715007781982,
+    "metrics": {
+      "semantic_similarity": 0.7306670500902779,
+      "keyword_coverage": 0.8,
+      "answer_length_score": 1.0,
+      "factual_accuracy": 1.0,
+      "source_relevance": 0.0,
+      "overall_score": 0.7692001150270834
+    },
+    "category": "Security",
+    "difficulty": "medium",
+    "keywords": [
+      "LDAP",
+      "Active Directory",
+      "OAuth",
+      "SAML",
+      "MFA"
+    ],
+    "evaluation_criteria": {
+      "accuracy": 0.9,
+      "completeness": 0.85,
+      "relevance": 0.9
+    }
+  }
+]

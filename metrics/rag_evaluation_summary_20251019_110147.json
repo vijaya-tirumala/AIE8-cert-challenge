@@ -1,0 +1,86 @@
+{
+  "overall_performance": {
+    "average_score": 0.12440190508789574,
+    "median_score": 0.12960914669597254,
+    "std_score": 0.020546682162241113,
+    "min_score": 0.10175259586957502,
+    "max_score": 0.14184397269813967,
+    "score_range": 0.040091376828564645
+  },
+  "category_performance": {
+    "Security": {
+      "average_score": 0.12440190508789574,
+      "std_score": 0.020546682162241113,
+      "count": 3,
+      "pass_rate": 0.0
+    }
+  },
+  "difficulty_performance": {
+    "easy": {
+      "average_score": 0.1357265596970561,
+      "std_score": 0.008651328432769875,
+      "count": 2,
+      "pass_rate": 0.0
+    },
+    "medium": {
+      "average_score": 0.10175259586957502,
+      "std_score": NaN,
+      "count": 1,
+      "pass_rate": 0.0
+    }
+  },
+  "metric_performance": {
+    "semantic_similarity": {
+      "average_score": 0.03664271392934942,
+      "std_score": 0.024244575922578275,
+      "min_score": 0.0169530973430278,
+      "max_score": 0.0637223332362231
+    },
+    "keyword_coverage": {
+      "average_score": 0.0803030303030303,
+      "std_score": 0.012402049654352197,
+      "min_score": 0.06666666666666667,
+      "max_score": 0.09090909090909091
+    },
+    "factual_accuracy": {
+      "average_score": 0.0,
+      "std_score": 0.0,
+      "min_score": 0.0,
+      "max_score": 0.0
+    },
+    "answer_length_score": {
+      "average_score": 0.9333333333333332,
+      "std_score": 0.11547005383792512,
+      "min_score": 0.8,
+      "max_score": 1.0
+    },
+    "source_relevance": {
+      "average_score": 0.0,
+      "std_score": 0.0,
+      "min_score": 0.0,
+      "max_score": 0.0
+    }
+  },
+  "response_time_stats": {
+    "average_time": 11.24828314781189,
+    "median_time": 8.490689992904663,
+    "std_time": 10.951245339911221,
+    "min_time": 1.9393982887268066,
+    "max_time": 23.3147611618042
+  },
+  "threshold_comparison": {
+    "cases_above_threshold": 0,
+    "cases_below_threshold": 3,
+    "threshold_pass_rate": 0.0
+  },
+  "pass_fail_analysis": {
+    "total_cases": 3,
+    "passing_cases": 0,
+    "failing_cases": 3,
+    "overall_pass_rate": 0.0,
+    "excellent_cases": 0,
+    "good_cases": 0,
+    "fair_cases": 0,
+    "poor_cases": 3
+  }
+}

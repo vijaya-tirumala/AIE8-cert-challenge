@@ -1,0 +1,2 @@
+# This file ensures the metrics directory is included in the repository
+# Evaluation results will be generated here when running RAGAS evaluations

@@ -1,0 +1,79 @@
+[project]
+name = "solviq-rag"
+version = "1.0.0"
+description = "AI-powered RAG system for Solution Engineers and M&A teams"
+authors = [
+    { name = "Vijaya Tirumalareddy" }
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+keywords = ["rag", "ai", "solution-engineers", "ma", "enterprise"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    # Core LangChain dependencies
+    "langchain>=0.3.19",
+    "langchain-community>=0.3.16",
+    "langchain-openai>=0.3.28",
+    # API clients
+    "openai>=1.99.2",
+    "tavily-python>=0.5.0",
+    # Vector store and embeddings
+    "faiss-cpu>=1.12.0",
+    # Web framework
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "streamlit>=1.50.0",
+    # HTTP client
+    "requests>=2.32.3",
+    "httpx>=0.24.0",
+    # Configuration
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    # Data processing
+    "numpy>=2.0.0",
+    "pandas>=2.0.0",
+    # Evaluation (optional)
+    "ragas>=0.2.10",
+    # Logging and monitoring
+    "structlog>=23.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["mypy>=1.11.1", "ruff>=0.6.1"]
+
+[build-system]
+requires = ["setuptools>=73.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+lint.select = [
+    "E",    # pycodestyle
+    "F",    # pyflakes
+    "I",    # isort
+    "D",    # pydocstyle
+    "D401", # First line should be in imperative mood
+    "T201",
+    "UP",
+]
+lint.ignore = [
+    "UP006",
+    "UP007",
+    "UP035",
+    "D417",
+    "E501",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D", "UP"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
