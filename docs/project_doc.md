@@ -423,7 +423,7 @@ ensemble_retriever = EnsembleRetriever(
 ### Future Improvements
 **Deliverable: Articulate the changes that you expect to make to your app in the second half of the course. How will you improve your application?**
 
-### Immediate Enhancements (Next 2-4 weeks)
+### Near-term Enhancements (Next 2-4 weeks)
 
 #### 1. **Enhanced Retrieval Methods**
 - **Hybrid Search**: Combine semantic and keyword-based retrieval
@@ -440,7 +440,7 @@ ensemble_retriever = EnsembleRetriever(
 - **Document Upload**: Direct integration with customer documents
 - **Export Features**: PDF and Word document generation
 
-### Medium-Term Improvements (1-3 months)
+### Medium-Term Improvements
 
 #### 1. **Multi-Modal Capabilities**
 - **Image Processing**: Technical diagrams and architecture visualization
@@ -457,7 +457,7 @@ ensemble_retriever = EnsembleRetriever(
 - **Performance Optimization**: Automatic model fine-tuning
 - **Cost Optimization**: Intelligent API usage and caching
 
-### Long-Term Vision (3-6 months)
+### Long-Term Vision
 
 #### 1. **AI Agent Orchestration**
 - **Multi-Agent Collaboration**: Specialized agents for different domains
@@ -531,9 +531,9 @@ AIE8-cert-challenge/
 
 ### Key Deliverables
 
-**Loom Video**: 
+**Loom Video**: https://www.loom.com/share/fe777720c4f44a2d89d093fc2dcfbcfd?sid=f49202c8-9d32-4a49-b4a4-d400d55acf8a
 
-**Document**: 
+**Document**: https://github.com/vijaya-tirumala/AIE8-cert-challenge/blob/main/docs/project_doc.md
 
 **GitHub Repository**: [https://github.com/vijaya-tirumala/AIE8-cert-challenge](https://github.com/vijaya-tirumala/AIE8-cert-challenge)
 

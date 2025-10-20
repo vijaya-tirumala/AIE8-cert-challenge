@@ -491,7 +491,7 @@ def main():
         """)
     
     # Sample RFP Questions as horizontal titles - Solution Engineer focused (6 questions in 2 rows)
-    st.subheader("💡 Sample Questions")
+    st.subheader("💡 Frequently Asked Questions")
     sample_questions = [
         "What encryption standards does the platform support for enterprise clients?",
         "What compliance standards (SOC2, ISO27001, GDPR) does the platform meet?",

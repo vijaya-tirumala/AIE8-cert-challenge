@@ -1,5 +1,12 @@
 # SolvIQ - AI-Powered RAG System for Solution Engineers
 
+
+| ⏺️ Recording | 👨‍💻 Repo | 📝 Document |
+|:-----------------|:-----------------|:-----------------|
+| [Loom Video](https://www.loom.com/share/fe777720c4f44a2d89d093fc2dcfbcfd?sid=f49202c8-9d32-4a49-b4a4-d400d55acf8a) | [AIE8-cert-challenge](https://github.com/vijaya-tirumala/AIE8-cert-challenge) | [Project Documentation](https://github.com/vijaya-tirumala/AIE8-cert-challenge/blob/main/docs/project_doc.md) |
+
+---
+
 SolvIQ is an intelligent RAG (Retrieval-Augmented Generation) system specifically designed for Solution Engineers and M&A teams. It provides AI-powered assistance for creating compelling technical proposals, responding to complex RFPs, and delivering enterprise-grade solutions.
 
 ## 🚀 Features
